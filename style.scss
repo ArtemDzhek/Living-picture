@@ -1,0 +1,484 @@
+
+
+
+
+
+
+
+
+
+
+   .wall{
+   margin: 0 auto;
+   width: 100vw;
+   height: 48vw;
+   background: url("../img/D791q.webp") center /100%  no-repeat;
+   position: relative;
+   overflow: hidden;
+   border: 1px solid rgb(52, 27, 9);
+   box-shadow: 10px 10px 5px 0px rgba(45, 43, 43, 0.338);
+
+   &__wraper-viewr {
+   position: absolute;
+   display: inline-block;
+   top: 27vw;
+   
+   width: 50vw;
+   height: 100%;
+   background: url("../img/D1.webp")0 0/ 20%  no-repeat;
+   filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+   z-index: 2;
+   animation-name: viewr;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+}
+@keyframes viewr{
+   0%{
+      left: -40vw;
+   }
+   30%{
+      left: 10vw;
+      z-index: 0;
+      transform: skew(-1deg,-1deg);
+   }
+   50%{
+      left: 25vw;
+      transform: skew(1deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 100vw;
+      
+   }
+}
+   &__wraper-viewr1 {
+   position: absolute;
+   display: inline-block;
+   top: 20vw;
+   // left: 20vw;
+   width: 50vw;
+   height: 100%;
+   background: url("../img/D2.webp")0 0/ 30%  no-repeat;
+   filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+   z-index: 5;
+   animation-name: viewr1;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+}
+@keyframes viewr1{
+   0%{
+      right: -50vw;
+   }
+   30%{
+      right: 45;
+      
+      
+      transform: skew(2deg,-2deg);
+   }
+   50%{
+      right: 60;
+      transform: skew(1deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      right: 100vw;
+      
+   }
+}
+
+   &__wraper-viewr2 {
+   position: absolute;
+   display: inline-block;
+   top: 23vw;
+   // left: 28vw;
+   width: 50vw;
+   height: 100%;
+   background: url("../img/D3.webp")0 0/ 17%  no-repeat;
+   filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+   z-index: 1;
+   animation-name: viewr2;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+}
+@keyframes viewr2{
+   0%{
+      left: -20vw;
+   }
+   30%{
+      left: 25vw;
+      z-index: 0;
+      transform: skew(-1deg,-1deg);
+   }
+   50%{
+      left: 45vw;
+      transform: skew(1deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 100vw;
+      
+   }
+}
+&__wraper-viewr3 {
+   position: absolute;
+   display: inline-block;
+   top: 25vw;
+   // left: 60vw;
+   width: 50vw;
+   height: 100%;
+   background: url("../img/D4.webp")0 0/ 20%  no-repeat;
+   filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+   z-index: 2;
+   animation-name: viewr3;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+}
+@keyframes viewr3{
+   0%{
+      right: -30vw;
+   }
+   30%{
+      right: 30vw;
+      z-index: 0;
+      transform: skew(-1deg,-1deg);
+   }
+   50%{
+      right: 35vw;
+      transform: skew(1deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      right: 100vw;
+      
+   }
+}
+
+   &__wraper-viewr4 {
+   position: absolute;
+   display: inline-block;
+   top: 26vw;
+   // left: 65vw;
+   width: 50vw;
+   height: 100%;
+   background: url("../img/D5.webp")0 0/ 20%  no-repeat;
+   filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+   z-index: 3;
+   animation-name: viewr4;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+}
+@keyframes viewr4{
+   0%{
+      right: -30vw;
+   }
+   30%{
+      right: 20vw;
+      z-index: 0;
+      transform: skew(-1deg,-1deg);
+   }
+   50%{
+      right: 40vw;
+      transform: skew(1deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      right: 100vw;
+      
+   }
+}
+&__wraper-viewr5 {
+   position: absolute;
+   display: inline-block;
+   top: 23vw;
+   // left: 10vw;
+   width: 50vw;
+   height: 100%;
+   background: url("../img/D6.webp")0 0/ 40%  no-repeat;
+   filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+   z-index: 5;
+   animation-name: viewr5;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+   @keyframes viewr5{
+      0%{
+         left: -30vw;
+      }
+      30%{
+         left: 10vw;
+         z-index: 0;
+         transform: skew(-1deg,-1deg);
+      }
+      50%{
+         left: 20vw;
+         transform: skew(1deg,1deg);
+         filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+      }
+      100%{
+         left: 100vw;
+         
+      }
+   }
+   &__wraper-viewr6 {
+      position: absolute;
+      display: inline-block;
+      top: 23vw;
+      // left: 50vw;
+      width: 50vw;
+      height: 100%;
+      background: url("../img/D7.webp")0 0/ 30%  no-repeat;
+      filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+      z-index: 1;
+      animation-name: viewr6;
+      animation-duration: 16s;
+      animation-iteration-count: infinite;
+      
+   }
+   @keyframes viewr6{
+      0%{
+         right: -75vw;
+      }
+      30%{
+         z-index: 0;
+         transform: skew(-1deg,-1deg);
+      }
+      50%{
+         right: 10;
+         transform: skew(1deg,1deg);
+         filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+      }
+      100%{
+         right: 100vw;
+         z-index: -1;
+      }
+   }
+    
+      &__flover{
+         position: absolute;
+         display: inline-block;
+         top: 21vw;
+         right: 1vw;
+         width: 30vw;
+         height: 30vw;
+         
+         background: url("../img/D791.webp")0 0/ 100%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         z-index: 2;
+         animation-name: wind0;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+      &__flover1{
+         position: absolute;
+         display: inline-block;
+         top: 25vw;
+         left: 4vw;
+         width: 20vw;
+         height: 30vw;
+         background: url("../img/D792.webp")0 0/ 100%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         z-index: 3;
+         animation-name: wind1;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+      &__flover2{
+         position: absolute;
+         display: inline-block;
+         top: 21.79vw;
+         left: 0.1vw;
+         width: 20vw;
+         height: 28vw;
+         background: url("../img/D793.webp")0 0/ 100%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         z-index: 3;
+           animation-name: wind2;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+      &__flover3{
+         position: absolute;
+         display: inline-block;
+         top: 5.9vw;
+         left: 3vw;
+         width: 30vw;
+         height: 120vw;
+         background: url("../img/D794.webp")0 0/ 100%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         animation-name: wind3;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+      &__flover5{
+         position: absolute;
+         display: inline-block;
+         
+         left: 35vw;
+         width: 30vw;
+         height: 100%;
+         background: url("../img/D79.webp")0 0/ 40%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         animation-name: wind5;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+      &__flover6{
+         position: absolute;
+         display: inline-block;
+         top: 17.7vw;
+         left: 20vw;
+         width: 70vw;
+         height: 100%;
+         background: url("../img/D796.webp")0 0/ 40%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         animation-name: wind6;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+      &__flover7{
+         position: absolute;
+         display: inline-block;
+         top: 1vw;
+         left: 40vw;
+         width: 70vw;
+         height: 100%;
+         background: url("../img/D79610.webp")0 0/ 40%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         animation-name: wind7;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+      &__flover8{
+         position: absolute;
+         display: inline-block;
+         top: 18vw;
+         left: 50vw;
+         width: 50vw;
+         height: 100%;
+         background: url("../img/D793.webp")0 0/ 40%  no-repeat;
+         filter: drop-shadow(16px 16px 20px rgb(59, 56, 56));
+         animation-name: wind8;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+      }
+   
+   
+}
+
+
+@keyframes wind8{
+   0%{
+      left: 49vw;
+      // transform: scale(1.11);
+   }
+   50%{
+      left: 51vw;
+      transform: skew(2deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 49vw;
+   }
+}
+@keyframes wind7{
+   0%{
+      left: 41vw;
+   }
+   50%{
+      left: 39vw;
+      transform: skew(2deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 41vw;
+   }
+}
+@keyframes wind6{
+   0%{
+      left: 20vw;
+      // transform: scale(1.11);
+   }
+   50%{
+      left: 19vw;
+      transform: skew(1deg,0.1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 20vw;
+   }
+}
+
+@keyframes wind5{
+   0%{
+      left: 35vw;
+      // transform: scale(1.11);
+   }
+   50%{
+      left: 34vw;
+      transform: skew(1deg,0.1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 35vw;
+   }
+}
+
+@keyframes wind3{
+   0%{
+      left: 3vw;
+      // transform: scale(1.11);
+   }
+   50%{
+      left: 4vw;
+      transform: skew(0deg,0.1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 3vw;
+   }
+}
+@keyframes wind2{
+   0%{
+      left: 0.1vw;
+      
+   }
+   50%{
+      left: 0.5vw;
+      transform: skew(1.5deg,1deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 0.1vw;
+   }
+}
+
+@keyframes wind1{
+   0%{
+      left: 4vw;
+      
+   }
+   50%{
+      left: 5vw;
+      transform: skew(1.6deg,1.6deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      left: 4vw;
+   }
+}
+@keyframes wind0{
+   0%{
+      right: 1vw;
+      
+   }
+   50%{
+      right: 2vw;
+      transform: skew(1.6deg,3deg);
+      filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+   }
+   100%{
+      right: 1vw;
+   }
+}
+
+
